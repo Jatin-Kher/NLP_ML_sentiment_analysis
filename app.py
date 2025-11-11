@@ -7,6 +7,7 @@ import nltk
 
 # Download once
 nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab')
 nltk.download('stopwords', quiet=True)
 
 # Load model and vectorizer
