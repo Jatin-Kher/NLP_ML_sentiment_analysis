@@ -6,8 +6,8 @@ from nltk.tokenize import word_tokenize
 import nltk
 
 # Download once
-nltk.download('punkt')
-nltk.download('stopwords')
+nltk.download('punkt', quiet=True)
+nltk.download('stopwords', quiet=True)
 
 # Load model and vectorizer
 model = joblib.load("sentiment_model.pkl")
